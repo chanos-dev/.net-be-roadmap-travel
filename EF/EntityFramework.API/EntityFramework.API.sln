@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFramework.API", "EntityFramework.API\EntityFramework.API.csproj", "{7468C5F2-79F7-4296-8A6E-94E27843A8D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Migration", "Migration", "{AE279D3B-F281-4766-A771-FEEE0DB27C52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework.PostgreSQL", "Migration\EntityFramework.PostgreSQL\EntityFramework.PostgreSQL.csproj", "{782D190B-F504-47A6-9118-32CFE1854CC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{0BC7B2BD-AB82-493D-867A-5E54A8242E6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework.Domain", "Domain\EntityFramework.Domain\EntityFramework.Domain.csproj", "{6871250D-565A-47C8-A4F0-F52FB6E426BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{4DA3528E-56FE-4154-8947-0A21D692D85A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework.Infrastructure", "Infrastructure\EntityFramework.Infrastructure\EntityFramework.Infrastructure.csproj", "{1626A926-E200-48E8-9F4A-9712FECF74E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7468C5F2-79F7-4296-8A6E-94E27843A8D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7468C5F2-79F7-4296-8A6E-94E27843A8D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7468C5F2-79F7-4296-8A6E-94E27843A8D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7468C5F2-79F7-4296-8A6E-94E27843A8D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{782D190B-F504-47A6-9118-32CFE1854CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{782D190B-F504-47A6-9118-32CFE1854CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{782D190B-F504-47A6-9118-32CFE1854CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{782D190B-F504-47A6-9118-32CFE1854CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6871250D-565A-47C8-A4F0-F52FB6E426BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6871250D-565A-47C8-A4F0-F52FB6E426BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6871250D-565A-47C8-A4F0-F52FB6E426BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6871250D-565A-47C8-A4F0-F52FB6E426BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1626A926-E200-48E8-9F4A-9712FECF74E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1626A926-E200-48E8-9F4A-9712FECF74E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1626A926-E200-48E8-9F4A-9712FECF74E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1626A926-E200-48E8-9F4A-9712FECF74E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{782D190B-F504-47A6-9118-32CFE1854CC0} = {AE279D3B-F281-4766-A771-FEEE0DB27C52}
+		{6871250D-565A-47C8-A4F0-F52FB6E426BB} = {0BC7B2BD-AB82-493D-867A-5E54A8242E6F}
+		{1626A926-E200-48E8-9F4A-9712FECF74E1} = {4DA3528E-56FE-4154-8947-0A21D692D85A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6C625F2-847A-450E-93D0-7356EDE42183}
+	EndGlobalSection
+EndGlobal
