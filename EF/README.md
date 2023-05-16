@@ -16,3 +16,14 @@
         volumes:
           - "${PWD}/volume:/var/lib/postgresql/data"
   ```
+- dotnet code-first migration
+```
+// install dotnet-ef
+dotnet tool install --global dotnet-ef --version 6.0.16
+
+// create migration
+dotnet ef migrations add init --project .\Migration\EntityFramework.PostgreSQL\EntityFramework.PostgreSQL.csproj
+
+// apply migration
+dotnet ef database update --project .\Migration\EntityFramework.PostgreSQL\EntityFramework.PostgreSQL.csproj
+```
