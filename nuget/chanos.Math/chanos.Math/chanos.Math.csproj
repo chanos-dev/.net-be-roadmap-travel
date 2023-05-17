@@ -3,10 +3,24 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
 	  <PackageId>CMath</PackageId>
-	  <Version>1.0.0</Version>
-	  <Authors>chanos.dev</Authors>
-	  <Company>chanos</Company>
+	  <Title>CMath Title</Title>
+	  <Version>1.0.1</Version>
+	  <Authors>chanos.dev</Authors> 
 	  <PackageDescription>This package adds an Octocat!</PackageDescription>
-	  <RepositoryUrl>https://github.com/chanos-dev/.net-record/tree/main/Nuget</RepositoryUrl>
+	  <RepositoryUrl>https://github.com/chanos-dev/.net-record/tree/main/Nuget</RepositoryUrl> 
+	    
+		<Product>product</Product>
+		<Description>dedication</Description>
+		<Copyright>Copyright</Copyright>
+		<Summary>summary</Summary>  
+		<PackageTags>math</PackageTags>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageIcon>icon.png</PackageIcon> 
+		<PackageProjectUrl>https://github.com/chanos-dev</PackageProjectUrl> 
   </PropertyGroup>
+  
+  <ItemGroup> 
+    <None Include="icon.png" Pack="true" PackagePath="\" />
+    <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
 </Project>
