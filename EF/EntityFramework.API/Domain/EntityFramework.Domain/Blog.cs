@@ -5,6 +5,12 @@
         public int Id { get; set; }
         public string URL { get; set; }
 
-        public List<Post> Posts { set;  get; }
+        public ICollection<Post> Posts { set;  get; }
+    }
+
+    public class BlogDto
+    {
+        public int Id { get; set; }
+        public string URL { get; set; }
     }
 }
