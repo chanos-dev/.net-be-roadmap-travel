@@ -2,25 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-	  <PackageId>CMath</PackageId>
-	  <Title>CMath Title</Title>
-	  <Version>1.0.1</Version>
-	  <Authors>chanos.dev</Authors> 
-	  <PackageDescription>This package adds an Octocat!</PackageDescription>
-	  <RepositoryUrl>https://github.com/chanos-dev/.net-record/tree/main/Nuget</RepositoryUrl> 
-	    
-		<Product>product</Product>
-		<Description>dedication</Description>
-		<Copyright>Copyright</Copyright>
-		<Summary>summary</Summary>  
-		<PackageTags>math</PackageTags>
-		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<PackageIcon>icon.png</PackageIcon> 
-		<PackageProjectUrl>https://github.com/chanos-dev</PackageProjectUrl> 
+	  <PackageId>CMath</PackageId> 
+	  <Version>1.0.0</Version>
+	  <Authors>chanos.dev</Authors> 	  
+	  <RepositoryUrl>https://github.com/chanos-dev/.net-record</RepositoryUrl>
+	  <PackageDescription>test github nuget package</PackageDescription> 
+	  <PackageTags>math</PackageTags> 
+	  <PackageIcon>icon.png</PackageIcon> 
+	  <PackageIconUrl>https://cdn-icons-png.flaticon.com/128/897/897281.png</PackageIconUrl> 		
+	  <PackageProjectUrl>https://github.com/chanos-dev/.net-record/tree/main/nuget/chanos.Math/chanos.Math</PackageProjectUrl> 
   </PropertyGroup>
   
   <ItemGroup> 
-    <None Include="icon.png" Pack="true" PackagePath="\" />
-    <None Include="README.md" Pack="true" PackagePath="\" />
+    <None Include="icon.png" Pack="true" PackagePath="\" /> 
   </ItemGroup>
 </Project>
