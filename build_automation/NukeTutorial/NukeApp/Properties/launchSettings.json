@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "NukeApp": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
