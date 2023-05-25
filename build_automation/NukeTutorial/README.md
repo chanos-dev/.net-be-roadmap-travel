@@ -9,11 +9,11 @@ dotnet tool install Nuke.GlobalTool --global --version 6.3.0
 ```
 nuke :setup
 
-// root directory ÁöÁ¤
+// root directory ì§€ì •
 nuke :setup -Root {path}
 ```
 
-#### Nuke È£Ãâ
+#### Nuke í˜¸ì¶œ
 ```
 nuke {target-name} {paramter}
 ```
