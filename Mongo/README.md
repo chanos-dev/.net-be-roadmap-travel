@@ -1,0 +1,19 @@
+### MongoDB Tutorial
+- MongoDB
+  - docker-compose.yml
+  ```yaml
+  version: "3"
+  services:
+    mongodb:
+      image: mongo
+      container_name: mongodb
+      restart: on-failure	
+      ports:
+        - "27017:27017"
+      environment:
+        - MONGO_INITDB_ROOT_USERNAME=root
+        - MONGO_INITDB_ROOT_PASSWORD=root
+        - MONGO_INITDB_DATABASE=testdb
+      volumes:
+        - "${PWD}/volume:/data/db"
+  ```
