@@ -1,10 +1,4 @@
-# .net record
+### .NET 6+ Backend
 ---
-## env
-- os
-  - windows 10
-  - mac os (only database)
-- dotnet version
-  - .NET 6
-- docker version
-  - 20.10.23
+
+- [AspNetCore-Developer-Roadmap](https://github.com/MoienTajik/AspNetCore-Developer-Roadmap)에서 제공하는 항목을 학습하는 공간
