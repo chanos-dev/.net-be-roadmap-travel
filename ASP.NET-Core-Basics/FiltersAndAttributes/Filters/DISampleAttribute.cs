@@ -9,6 +9,7 @@ namespace FiltersAndAttributes.Filters
 
         public DISampleAttribute(ICalculation calculation)
         {
+            Console.WriteLine("Constructor DISampleAttribute");
             _calculation = calculation;
         }
 

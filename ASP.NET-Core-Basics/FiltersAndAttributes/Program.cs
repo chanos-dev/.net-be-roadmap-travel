@@ -15,6 +15,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddSingleton<ICalculation, Calculation>();
+builder.Services.AddSingleton<IFoo, Foo>();
 builder.Services.AddSingleton<DISampleAttribute>();
 
 var app = builder.Build();
